@@ -1,6 +1,5 @@
+/*
 #include<stdio.h>
-
-
 int main()
 {
     int count, first_term = 0, second_term = 1 , next_term, i;
@@ -26,7 +25,9 @@ int main()
     return 0;
 }
 
-/* Recursion Method
+*/
+
+
 #include<stdio.h>
 int fibonacci_series(int);
 int main()
@@ -46,10 +47,10 @@ int main()
 }
 int fibonacci_series(int num)
 {
-   if ( num == 0 )
+   if ( num == 0 ) //exit condition
      return 0;
    else if ( num == 1 )
      return 1;
    else
      return ( fibonacci_series(num-1) + fibonacci_series(num-2) );
-}*/
+}
